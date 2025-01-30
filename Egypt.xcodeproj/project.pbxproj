@@ -47,6 +47,14 @@
 		868D74F22D49908000398FA7 /* EgyptLevelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868D74EF2D49908000398FA7 /* EgyptLevelView.swift */; };
 		868D74F32D49908000398FA7 /* EgyptLevelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868D74F02D49908000398FA7 /* EgyptLevelModel.swift */; };
 		868D74F42D49908000398FA7 /* EgyptLevelViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868D74F12D49908000398FA7 /* EgyptLevelViewModel.swift */; };
+		86F0472D2D4BD15700B41C43 /* Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F0472C2D4BD15700B41C43 /* Audio.swift */; };
+		86F0473D2D4BD8C300B41C43 /* bg.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 86F047392D4BD8C300B41C43 /* bg.mp3 */; };
+		86F0473E2D4BD8C300B41C43 /* lose.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 86F0473A2D4BD8C300B41C43 /* lose.mp3 */; };
+		86F0473F2D4BD8C300B41C43 /* blockSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 86F0473B2D4BD8C300B41C43 /* blockSound.wav */; };
+		86F047402D4BD8C300B41C43 /* win.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 86F0473C2D4BD8C300B41C43 /* win.mp3 */; };
+		86F047422D4BDB5A00B41C43 /* bonus.wav in Resources */ = {isa = PBXBuildFile; fileRef = 86F047412D4BDB5A00B41C43 /* bonus.wav */; };
+		86F047442D4BE00D00B41C43 /* EgyptSpriteKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F047432D4BE00D00B41C43 /* EgyptSpriteKit.swift */; };
+		86F047462D4BE03B00B41C43 /* EgyptGameData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F047452D4BE03B00B41C43 /* EgyptGameData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -92,6 +100,14 @@
 		868D74EF2D49908000398FA7 /* EgyptLevelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EgyptLevelView.swift; sourceTree = "<group>"; };
 		868D74F02D49908000398FA7 /* EgyptLevelModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EgyptLevelModel.swift; sourceTree = "<group>"; };
 		868D74F12D49908000398FA7 /* EgyptLevelViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EgyptLevelViewModel.swift; sourceTree = "<group>"; };
+		86F0472C2D4BD15700B41C43 /* Audio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Audio.swift; sourceTree = "<group>"; };
+		86F047392D4BD8C300B41C43 /* bg.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bg.mp3; sourceTree = "<group>"; };
+		86F0473A2D4BD8C300B41C43 /* lose.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lose.mp3; sourceTree = "<group>"; };
+		86F0473B2D4BD8C300B41C43 /* blockSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = blockSound.wav; sourceTree = "<group>"; };
+		86F0473C2D4BD8C300B41C43 /* win.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = win.mp3; sourceTree = "<group>"; };
+		86F047412D4BDB5A00B41C43 /* bonus.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bonus.wav; sourceTree = "<group>"; };
+		86F047432D4BE00D00B41C43 /* EgyptSpriteKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EgyptSpriteKit.swift; sourceTree = "<group>"; };
+		86F047452D4BE03B00B41C43 /* EgyptGameData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EgyptGameData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +133,8 @@
 			isa = PBXGroup;
 			children = (
 				8622F9AD2D4ACBF500BCB67D /* EgyptSpriteKitExtension.swift */,
+				86F047452D4BE03B00B41C43 /* EgyptGameData.swift */,
+				86F047432D4BE00D00B41C43 /* EgyptSpriteKit.swift */,
 			);
 			path = EgyptGameSpriteKit;
 			sourceTree = "<group>";
@@ -233,7 +251,7 @@
 				868D74D32D49840500398FA7 /* EgyptLoadingModule */,
 				868D74CA2D4983BB00398FA7 /* Extensions */,
 				868D74C62D49839900398FA7 /* Helpers */,
-				868AF6302D4BA1D100BCB83E /* UserDefaultsManager */,
+				86F0472B2D4BD14C00B41C43 /* API */,
 				868D74BC2D49838300398FA7 /* Assets.xcassets */,
 				868D74BE2D49838300398FA7 /* Preview Content */,
 			);
@@ -329,6 +347,44 @@
 			path = EgyptLevelModule;
 			sourceTree = "<group>";
 		};
+		86F0472A2D4BD13500B41C43 /* AudioManager */ = {
+			isa = PBXGroup;
+			children = (
+				86F0472E2D4BD16200B41C43 /* Music */,
+				86F047302D4BD17700B41C43 /* Audio */,
+			);
+			path = AudioManager;
+			sourceTree = "<group>";
+		};
+		86F0472B2D4BD14C00B41C43 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				86F0472A2D4BD13500B41C43 /* AudioManager */,
+				868AF6302D4BA1D100BCB83E /* UserDefaultsManager */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		86F0472E2D4BD16200B41C43 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				86F047392D4BD8C300B41C43 /* bg.mp3 */,
+				86F0473B2D4BD8C300B41C43 /* blockSound.wav */,
+				86F047412D4BDB5A00B41C43 /* bonus.wav */,
+				86F0473A2D4BD8C300B41C43 /* lose.mp3 */,
+				86F0473C2D4BD8C300B41C43 /* win.mp3 */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		86F047302D4BD17700B41C43 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				86F0472C2D4BD15700B41C43 /* Audio.swift */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -388,6 +444,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				868D74DC2D49854700398FA7 /* tlheader-regular.otf in Resources */,
+				86F0473E2D4BD8C300B41C43 /* lose.mp3 in Resources */,
+				86F047402D4BD8C300B41C43 /* win.mp3 in Resources */,
+				86F0473F2D4BD8C300B41C43 /* blockSound.wav in Resources */,
+				86F047422D4BDB5A00B41C43 /* bonus.wav in Resources */,
+				86F0473D2D4BD8C300B41C43 /* bg.mp3 in Resources */,
 				868D74C02D49838300398FA7 /* Preview Assets.xcassets in Resources */,
 				868D74BD2D49838300398FA7 /* Assets.xcassets in Resources */,
 			);
@@ -402,6 +463,8 @@
 			files = (
 				868D74DF2D4988BA00398FA7 /* Router.swift in Sources */,
 				868D74E52D498D6E00398FA7 /* EgyptMenuView.swift in Sources */,
+				86F0472D2D4BD15700B41C43 /* Audio.swift in Sources */,
+				86F047442D4BE00D00B41C43 /* EgyptSpriteKit.swift in Sources */,
 				868D74F22D49908000398FA7 /* EgyptLevelView.swift in Sources */,
 				868D74F32D49908000398FA7 /* EgyptLevelModel.swift in Sources */,
 				8622F9B32D4AEB6F00BCB67D /* EgyptPauseView.swift in Sources */,
@@ -417,6 +480,7 @@
 				867466442D4A626D009ACAD5 /* EgyptGameViewModel.swift in Sources */,
 				8674663B2D4A4EF2009ACAD5 /* EgyptRulesView.swift in Sources */,
 				8674663C2D4A4EF2009ACAD5 /* EgyptRulesModel.swift in Sources */,
+				86F047462D4BE03B00B41C43 /* EgyptGameData.swift in Sources */,
 				8674663D2D4A4EF2009ACAD5 /* EgyptRulesViewModel.swift in Sources */,
 				868AF62D2D4B919A00BCB83E /* EgyptLoseView.swift in Sources */,
 				868AF62E2D4B919A00BCB83E /* EgyptLoseModel.swift in Sources */,

@@ -2,6 +2,7 @@ import SwiftUI
 
 struct EgyptSettingsView: View {
     @StateObject var egyptSettingsModel =  EgyptSettingsViewModel()
+    @ObservedObject var audioManager = AudioManager.shared
     @Environment(\.verticalSizeClass) var verticalSizeClass
     @ObservedObject var router: Router
     
@@ -48,8 +49,8 @@ struct EgyptSettingsView: View {
                                         .resizable()
                                         .frame(width: 39, height: 39)
                                     
-                                    CustomSlider(value: $egyptSettingsModel.soundValue,
-                                                 range: 0...10,
+                                    CustomSlider(value: $audioManager.soundEffectVolume,
+                                                 range: 0...1,
                                                  sizeSlider: geometry.size.width * 0.178)
                                 }
                                 
@@ -59,8 +60,8 @@ struct EgyptSettingsView: View {
                                         .frame(width: 31, height: 31)
                                         .offset(x: -7)
                                     
-                                    CustomSlider(value: $egyptSettingsModel.musicValue,
-                                                 range: 0...10,
+                                    CustomSlider(value: $audioManager.backgroundVolume,
+                                                 range: 0...1,
                                                  sizeSlider: geometry.size.width * 0.178)
                                 }
                             }
@@ -69,7 +70,8 @@ struct EgyptSettingsView: View {
                                         sizeForegroundImage: 34,
                                         sizeXBackground: 77,
                                         sizeYBackground: 56) {
-                                //save position slider
+                                UserDefaultsManager.shared.saveVolumeSettings(backgroundVolume: audioManager.backgroundVolume,
+                                                                              soundEffectVolume: audioManager.soundEffectVolume)
                             }
                                         .padding(.top, geometry.size.height * 0.444)
                         }
@@ -83,6 +85,11 @@ struct EgyptSettingsView: View {
                                     .padding(.top, 15)
                     }
                     .padding(.bottom)
+                }
+                .onAppear {
+                    let (backgroundVolume, soundEffectVolume) = UserDefaultsManager.shared.loadVolumeSettings()
+                    audioManager.backgroundVolume = backgroundVolume
+                    audioManager.soundEffectVolume = soundEffectVolume
                 }
             }
         }

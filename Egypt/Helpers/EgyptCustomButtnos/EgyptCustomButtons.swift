@@ -84,12 +84,13 @@ struct OpenLevel: View {
 }
 
 struct CustomSlider: View {
-    @Binding var value: Double
-    let range: ClosedRange<Double>
+    @Binding var value: Float
+    let range: ClosedRange<Float>
     let thumbSize: CGFloat = 20
     let secindThumbSize: CGFloat = 11
     let trackHeight: CGFloat = 15
     let sizeSlider: CGFloat
+
     var body: some View {
         GeometryReader { geometry in
             ZStack(alignment: .leading) {
@@ -102,7 +103,7 @@ struct CustomSlider: View {
                     Circle()
                         .fill(.black)
                         .frame(width: thumbSize, height: thumbSize)
-                       
+
                     Circle()
                         .fill(.white)
                         .frame(width: secindThumbSize, height: secindThumbSize)
@@ -119,13 +120,13 @@ struct CustomSlider: View {
         }
         .frame(width: sizeSlider, height: thumbSize)
     }
-    
-    private var normalizedValue: Double {
+
+    private var normalizedValue: Float {
         return (value - range.lowerBound) / (range.upperBound - range.lowerBound)
     }
-    
+
     private func updateValue(with locationX: CGFloat, in totalWidth: CGFloat) {
-        let newValue = (locationX / totalWidth) * (range.upperBound - range.lowerBound) + range.lowerBound
+        let newValue = Float((locationX / totalWidth)) * (range.upperBound - range.lowerBound) + range.lowerBound
         value = min(max(newValue, range.lowerBound), range.upperBound)
     }
 }

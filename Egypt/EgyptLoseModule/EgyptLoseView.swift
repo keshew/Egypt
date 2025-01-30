@@ -2,6 +2,7 @@ import SwiftUI
 
 struct EgyptLoseView: View {
     @StateObject var egyptLoseModel =  EgyptLoseViewModel()
+    @ObservedObject var audioManager = AudioManager.shared
     @Environment(\.verticalSizeClass) var verticalSizeClass
     @ObservedObject var router: Router
     var level: Int
@@ -72,6 +73,16 @@ struct EgyptLoseView: View {
                         .padding(.top, 20)
                     }
                 }
+                .onAppear {
+                    audioManager.stopBackgroundMusic()
+                    audioManager.playLoseMusic()
+                }
+                
+                .onDisappear {
+                    audioManager.stopLoseMusic()
+                    audioManager.playBackgroundMusic()
+                }
+                
             }
         }
         .navigationBarBackButtonHidden(true)

@@ -2,6 +2,7 @@ import SwiftUI
 
 struct EgyptWinView: View {
     @StateObject var egyptWinModel =  EgyptWinViewModel()
+    @ObservedObject var audioManager = AudioManager.shared
     @Environment(\.verticalSizeClass) var verticalSizeClass
     @ObservedObject var router: Router
     
@@ -89,6 +90,15 @@ struct EgyptWinView: View {
                         .offset(y: -25)
                         .padding(.top, 20)
                     }
+                }
+                .onAppear {
+                    audioManager.stopBackgroundMusic()
+                    audioManager.playWinMusic()
+                }
+                
+                .onDisappear {
+                    audioManager.stopWinMusic()
+                    audioManager.playBackgroundMusic()
                 }
             }
         }

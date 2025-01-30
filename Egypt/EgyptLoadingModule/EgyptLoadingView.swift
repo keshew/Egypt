@@ -4,6 +4,7 @@ struct EgyptLoadingView: View {
     @StateObject var egyptLoadingModel =  EgyptLoadingViewModel()
     @Environment(\.verticalSizeClass) var verticalSizeClass
     @ObservedObject var router = Router()
+    @ObservedObject var audioManager = AudioManager.shared
     
     var body: some View {
         NavigationStack(path: $router.path) {
@@ -65,6 +66,8 @@ struct EgyptLoadingView: View {
                         
                         DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
                             router.showMenu()
+                            audioManager.playBackgroundMusic()
+                           
                         }
                     }
                 }

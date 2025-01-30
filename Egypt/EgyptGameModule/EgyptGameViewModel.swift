@@ -8,5 +8,4 @@ class EgyptGameViewModel: ObservableObject {
         scene.game  = gameData
         return scene
     }
-    
 }
