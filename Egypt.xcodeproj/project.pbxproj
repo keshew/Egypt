@@ -7,18 +7,91 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8622F9AE2D4ACBF500BCB67D /* EgyptSpriteKitExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8622F9AD2D4ACBF500BCB67D /* EgyptSpriteKitExtension.swift */; };
+		8622F9B32D4AEB6F00BCB67D /* EgyptPauseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8622F9B02D4AEB6F00BCB67D /* EgyptPauseView.swift */; };
+		8622F9B42D4AEB6F00BCB67D /* EgyptPauseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8622F9B12D4AEB6F00BCB67D /* EgyptPauseModel.swift */; };
+		8622F9B52D4AEB6F00BCB67D /* EgyptPauseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8622F9B22D4AEB6F00BCB67D /* EgyptPauseViewModel.swift */; };
+		8622F9BA2D4AEE0B00BCB67D /* EgyptShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8622F9B72D4AEE0B00BCB67D /* EgyptShopView.swift */; };
+		8622F9BB2D4AEE0B00BCB67D /* EgyptShopModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8622F9B82D4AEE0B00BCB67D /* EgyptShopModel.swift */; };
+		8622F9BC2D4AEE0B00BCB67D /* EgyptShopViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8622F9B92D4AEE0B00BCB67D /* EgyptShopViewModel.swift */; };
+		867466342D4A3631009ACAD5 /* EgyptSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867466312D4A3631009ACAD5 /* EgyptSettingsView.swift */; };
+		867466352D4A3631009ACAD5 /* EgyptSettingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867466322D4A3631009ACAD5 /* EgyptSettingsModel.swift */; };
+		867466362D4A3631009ACAD5 /* EgyptSettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867466332D4A3631009ACAD5 /* EgyptSettingsViewModel.swift */; };
+		8674663B2D4A4EF2009ACAD5 /* EgyptRulesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867466382D4A4EF2009ACAD5 /* EgyptRulesView.swift */; };
+		8674663C2D4A4EF2009ACAD5 /* EgyptRulesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867466392D4A4EF2009ACAD5 /* EgyptRulesModel.swift */; };
+		8674663D2D4A4EF2009ACAD5 /* EgyptRulesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8674663A2D4A4EF2009ACAD5 /* EgyptRulesViewModel.swift */; };
+		867466422D4A626D009ACAD5 /* EgyptGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8674663F2D4A626D009ACAD5 /* EgyptGameView.swift */; };
+		867466432D4A626D009ACAD5 /* EgyptGameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867466402D4A626D009ACAD5 /* EgyptGameModel.swift */; };
+		867466442D4A626D009ACAD5 /* EgyptGameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867466412D4A626D009ACAD5 /* EgyptGameViewModel.swift */; };
+		868AF6262D4B8E0E00BCB83E /* EgyptWinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868AF6232D4B8E0E00BCB83E /* EgyptWinView.swift */; };
+		868AF6272D4B8E0E00BCB83E /* EgyptWinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868AF6242D4B8E0E00BCB83E /* EgyptWinModel.swift */; };
+		868AF6282D4B8E0E00BCB83E /* EgyptWinViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868AF6252D4B8E0E00BCB83E /* EgyptWinViewModel.swift */; };
+		868AF62D2D4B919A00BCB83E /* EgyptLoseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868AF62A2D4B919A00BCB83E /* EgyptLoseView.swift */; };
+		868AF62E2D4B919A00BCB83E /* EgyptLoseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868AF62B2D4B919A00BCB83E /* EgyptLoseModel.swift */; };
+		868AF62F2D4B919A00BCB83E /* EgyptLoseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868AF62C2D4B919A00BCB83E /* EgyptLoseViewModel.swift */; };
+		868AF6322D4BA1E300BCB83E /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868AF6312D4BA1E300BCB83E /* UserDefaultsManager.swift */; };
 		868D74B92D49838200398FA7 /* EgyptApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868D74B82D49838200398FA7 /* EgyptApp.swift */; };
-		868D74BB2D49838200398FA7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868D74BA2D49838200398FA7 /* ContentView.swift */; };
 		868D74BD2D49838300398FA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 868D74BC2D49838300398FA7 /* Assets.xcassets */; };
 		868D74C02D49838300398FA7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 868D74BF2D49838300398FA7 /* Preview Assets.xcassets */; };
+		868D74CE2D4983E900398FA7 /* EgyptTextExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868D74CD2D4983E900398FA7 /* EgyptTextExtension.swift */; };
+		868D74D02D4983FA00398FA7 /* EgyptCustomButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868D74CF2D4983FA00398FA7 /* EgyptCustomButtons.swift */; };
+		868D74D22D49840200398FA7 /* EgyptImageName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868D74D12D49840200398FA7 /* EgyptImageName.swift */; };
+		868D74DC2D49854700398FA7 /* tlheader-regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 868D74DA2D4984E800398FA7 /* tlheader-regular.otf */; };
+		868D74DF2D4988BA00398FA7 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868D74DE2D4988BA00398FA7 /* Router.swift */; };
+		868D74E52D498D6E00398FA7 /* EgyptMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868D74E22D498D6E00398FA7 /* EgyptMenuView.swift */; };
+		868D74E62D498D6E00398FA7 /* EgyptMenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868D74E32D498D6E00398FA7 /* EgyptMenuModel.swift */; };
+		868D74E72D498D6E00398FA7 /* EgyptMenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868D74E42D498D6E00398FA7 /* EgyptMenuViewModel.swift */; };
+		868D74EB2D498D8B00398FA7 /* EgyptLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868D74E82D498D8B00398FA7 /* EgyptLoadingView.swift */; };
+		868D74EC2D498D8B00398FA7 /* EgyptLoadingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868D74E92D498D8B00398FA7 /* EgyptLoadingModel.swift */; };
+		868D74ED2D498D8B00398FA7 /* EgyptLoadingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868D74EA2D498D8B00398FA7 /* EgyptLoadingViewModel.swift */; };
+		868D74F22D49908000398FA7 /* EgyptLevelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868D74EF2D49908000398FA7 /* EgyptLevelView.swift */; };
+		868D74F32D49908000398FA7 /* EgyptLevelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868D74F02D49908000398FA7 /* EgyptLevelModel.swift */; };
+		868D74F42D49908000398FA7 /* EgyptLevelViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868D74F12D49908000398FA7 /* EgyptLevelViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8622F9AD2D4ACBF500BCB67D /* EgyptSpriteKitExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EgyptSpriteKitExtension.swift; sourceTree = "<group>"; };
+		8622F9B02D4AEB6F00BCB67D /* EgyptPauseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EgyptPauseView.swift; sourceTree = "<group>"; };
+		8622F9B12D4AEB6F00BCB67D /* EgyptPauseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EgyptPauseModel.swift; sourceTree = "<group>"; };
+		8622F9B22D4AEB6F00BCB67D /* EgyptPauseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EgyptPauseViewModel.swift; sourceTree = "<group>"; };
+		8622F9B72D4AEE0B00BCB67D /* EgyptShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EgyptShopView.swift; sourceTree = "<group>"; };
+		8622F9B82D4AEE0B00BCB67D /* EgyptShopModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EgyptShopModel.swift; sourceTree = "<group>"; };
+		8622F9B92D4AEE0B00BCB67D /* EgyptShopViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EgyptShopViewModel.swift; sourceTree = "<group>"; };
+		867466312D4A3631009ACAD5 /* EgyptSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EgyptSettingsView.swift; sourceTree = "<group>"; };
+		867466322D4A3631009ACAD5 /* EgyptSettingsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EgyptSettingsModel.swift; sourceTree = "<group>"; };
+		867466332D4A3631009ACAD5 /* EgyptSettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EgyptSettingsViewModel.swift; sourceTree = "<group>"; };
+		867466382D4A4EF2009ACAD5 /* EgyptRulesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EgyptRulesView.swift; sourceTree = "<group>"; };
+		867466392D4A4EF2009ACAD5 /* EgyptRulesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EgyptRulesModel.swift; sourceTree = "<group>"; };
+		8674663A2D4A4EF2009ACAD5 /* EgyptRulesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EgyptRulesViewModel.swift; sourceTree = "<group>"; };
+		8674663F2D4A626D009ACAD5 /* EgyptGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EgyptGameView.swift; sourceTree = "<group>"; };
+		867466402D4A626D009ACAD5 /* EgyptGameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EgyptGameModel.swift; sourceTree = "<group>"; };
+		867466412D4A626D009ACAD5 /* EgyptGameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EgyptGameViewModel.swift; sourceTree = "<group>"; };
+		868AF6232D4B8E0E00BCB83E /* EgyptWinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EgyptWinView.swift; sourceTree = "<group>"; };
+		868AF6242D4B8E0E00BCB83E /* EgyptWinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EgyptWinModel.swift; sourceTree = "<group>"; };
+		868AF6252D4B8E0E00BCB83E /* EgyptWinViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EgyptWinViewModel.swift; sourceTree = "<group>"; };
+		868AF62A2D4B919A00BCB83E /* EgyptLoseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EgyptLoseView.swift; sourceTree = "<group>"; };
+		868AF62B2D4B919A00BCB83E /* EgyptLoseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EgyptLoseModel.swift; sourceTree = "<group>"; };
+		868AF62C2D4B919A00BCB83E /* EgyptLoseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EgyptLoseViewModel.swift; sourceTree = "<group>"; };
+		868AF6312D4BA1E300BCB83E /* UserDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
 		868D74B52D49838200398FA7 /* Egypt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Egypt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		868D74B82D49838200398FA7 /* EgyptApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EgyptApp.swift; sourceTree = "<group>"; };
-		868D74BA2D49838200398FA7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		868D74BC2D49838300398FA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		868D74BF2D49838300398FA7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		868D74CD2D4983E900398FA7 /* EgyptTextExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EgyptTextExtension.swift; sourceTree = "<group>"; };
+		868D74CF2D4983FA00398FA7 /* EgyptCustomButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EgyptCustomButtons.swift; sourceTree = "<group>"; };
+		868D74D12D49840200398FA7 /* EgyptImageName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EgyptImageName.swift; sourceTree = "<group>"; };
+		868D74DA2D4984E800398FA7 /* tlheader-regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "tlheader-regular.otf"; sourceTree = "<group>"; };
+		868D74DB2D4984F300398FA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		868D74DE2D4988BA00398FA7 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		868D74E22D498D6E00398FA7 /* EgyptMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EgyptMenuView.swift; sourceTree = "<group>"; };
+		868D74E32D498D6E00398FA7 /* EgyptMenuModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EgyptMenuModel.swift; sourceTree = "<group>"; };
+		868D74E42D498D6E00398FA7 /* EgyptMenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EgyptMenuViewModel.swift; sourceTree = "<group>"; };
+		868D74E82D498D8B00398FA7 /* EgyptLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EgyptLoadingView.swift; sourceTree = "<group>"; };
+		868D74E92D498D8B00398FA7 /* EgyptLoadingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EgyptLoadingModel.swift; sourceTree = "<group>"; };
+		868D74EA2D498D8B00398FA7 /* EgyptLoadingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EgyptLoadingViewModel.swift; sourceTree = "<group>"; };
+		868D74EF2D49908000398FA7 /* EgyptLevelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EgyptLevelView.swift; sourceTree = "<group>"; };
+		868D74F02D49908000398FA7 /* EgyptLevelModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EgyptLevelModel.swift; sourceTree = "<group>"; };
+		868D74F12D49908000398FA7 /* EgyptLevelViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EgyptLevelViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +105,101 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8622F9A62D4AAFAF00BCB67D /* EgyptTextExtension */ = {
+			isa = PBXGroup;
+			children = (
+				868D74CD2D4983E900398FA7 /* EgyptTextExtension.swift */,
+			);
+			path = EgyptTextExtension;
+			sourceTree = "<group>";
+		};
+		8622F9AC2D4ACBE200BCB67D /* EgyptGameSpriteKit */ = {
+			isa = PBXGroup;
+			children = (
+				8622F9AD2D4ACBF500BCB67D /* EgyptSpriteKitExtension.swift */,
+			);
+			path = EgyptGameSpriteKit;
+			sourceTree = "<group>";
+		};
+		8622F9AF2D4AE82600BCB67D /* EgyptPauseModule */ = {
+			isa = PBXGroup;
+			children = (
+				8622F9B02D4AEB6F00BCB67D /* EgyptPauseView.swift */,
+				8622F9B12D4AEB6F00BCB67D /* EgyptPauseModel.swift */,
+				8622F9B22D4AEB6F00BCB67D /* EgyptPauseViewModel.swift */,
+			);
+			path = EgyptPauseModule;
+			sourceTree = "<group>";
+		};
+		8622F9B62D4AEDFD00BCB67D /* EgyptShopModule */ = {
+			isa = PBXGroup;
+			children = (
+				8622F9B72D4AEE0B00BCB67D /* EgyptShopView.swift */,
+				8622F9B82D4AEE0B00BCB67D /* EgyptShopModel.swift */,
+				8622F9B92D4AEE0B00BCB67D /* EgyptShopViewModel.swift */,
+			);
+			path = EgyptShopModule;
+			sourceTree = "<group>";
+		};
+		867466302D4A3620009ACAD5 /* EgyptSettingsModule */ = {
+			isa = PBXGroup;
+			children = (
+				867466312D4A3631009ACAD5 /* EgyptSettingsView.swift */,
+				867466322D4A3631009ACAD5 /* EgyptSettingsModel.swift */,
+				867466332D4A3631009ACAD5 /* EgyptSettingsViewModel.swift */,
+			);
+			path = EgyptSettingsModule;
+			sourceTree = "<group>";
+		};
+		867466372D4A4EE4009ACAD5 /* EgyptRulesModule */ = {
+			isa = PBXGroup;
+			children = (
+				867466382D4A4EF2009ACAD5 /* EgyptRulesView.swift */,
+				867466392D4A4EF2009ACAD5 /* EgyptRulesModel.swift */,
+				8674663A2D4A4EF2009ACAD5 /* EgyptRulesViewModel.swift */,
+			);
+			path = EgyptRulesModule;
+			sourceTree = "<group>";
+		};
+		8674663E2D4A6261009ACAD5 /* EgyptGameModule */ = {
+			isa = PBXGroup;
+			children = (
+				8674663F2D4A626D009ACAD5 /* EgyptGameView.swift */,
+				867466402D4A626D009ACAD5 /* EgyptGameModel.swift */,
+				867466412D4A626D009ACAD5 /* EgyptGameViewModel.swift */,
+				8622F9AC2D4ACBE200BCB67D /* EgyptGameSpriteKit */,
+			);
+			path = EgyptGameModule;
+			sourceTree = "<group>";
+		};
+		868AF6212D4B8DF700BCB83E /* EgyptWinModule */ = {
+			isa = PBXGroup;
+			children = (
+				868AF6232D4B8E0E00BCB83E /* EgyptWinView.swift */,
+				868AF6242D4B8E0E00BCB83E /* EgyptWinModel.swift */,
+				868AF6252D4B8E0E00BCB83E /* EgyptWinViewModel.swift */,
+			);
+			path = EgyptWinModule;
+			sourceTree = "<group>";
+		};
+		868AF6292D4B918F00BCB83E /* EgyptLoseModule */ = {
+			isa = PBXGroup;
+			children = (
+				868AF62A2D4B919A00BCB83E /* EgyptLoseView.swift */,
+				868AF62B2D4B919A00BCB83E /* EgyptLoseModel.swift */,
+				868AF62C2D4B919A00BCB83E /* EgyptLoseViewModel.swift */,
+			);
+			path = EgyptLoseModule;
+			sourceTree = "<group>";
+		};
+		868AF6302D4BA1D100BCB83E /* UserDefaultsManager */ = {
+			isa = PBXGroup;
+			children = (
+				868AF6312D4BA1E300BCB83E /* UserDefaultsManager.swift */,
+			);
+			path = UserDefaultsManager;
+			sourceTree = "<group>";
+		};
 		868D74AC2D49838200398FA7 = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +219,21 @@
 		868D74B72D49838200398FA7 /* Egypt */ = {
 			isa = PBXGroup;
 			children = (
+				868D74DB2D4984F300398FA7 /* Info.plist */,
 				868D74B82D49838200398FA7 /* EgyptApp.swift */,
-				868D74BA2D49838200398FA7 /* ContentView.swift */,
+				868AF6292D4B918F00BCB83E /* EgyptLoseModule */,
+				868AF6212D4B8DF700BCB83E /* EgyptWinModule */,
+				8622F9B62D4AEDFD00BCB67D /* EgyptShopModule */,
+				8622F9AF2D4AE82600BCB67D /* EgyptPauseModule */,
+				8674663E2D4A6261009ACAD5 /* EgyptGameModule */,
+				867466372D4A4EE4009ACAD5 /* EgyptRulesModule */,
+				867466302D4A3620009ACAD5 /* EgyptSettingsModule */,
+				868D74EE2D49907500398FA7 /* EgyptLevelModule */,
+				868D74E12D498D5500398FA7 /* EgyptMenuModule */,
+				868D74D32D49840500398FA7 /* EgyptLoadingModule */,
+				868D74CA2D4983BB00398FA7 /* Extensions */,
+				868D74C62D49839900398FA7 /* Helpers */,
+				868AF6302D4BA1D100BCB83E /* UserDefaultsManager */,
 				868D74BC2D49838300398FA7 /* Assets.xcassets */,
 				868D74BE2D49838300398FA7 /* Preview Content */,
 			);
@@ -65,6 +246,87 @@
 				868D74BF2D49838300398FA7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		868D74C62D49839900398FA7 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				868D74C92D4983B400398FA7 /* EgyptImageName */,
+				868D74C82D4983A800398FA7 /* EgyptFonts */,
+				868D74C72D49839E00398FA7 /* EgyptCustomButtnos */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		868D74C72D49839E00398FA7 /* EgyptCustomButtnos */ = {
+			isa = PBXGroup;
+			children = (
+				868D74CF2D4983FA00398FA7 /* EgyptCustomButtons.swift */,
+			);
+			path = EgyptCustomButtnos;
+			sourceTree = "<group>";
+		};
+		868D74C82D4983A800398FA7 /* EgyptFonts */ = {
+			isa = PBXGroup;
+			children = (
+				868D74DA2D4984E800398FA7 /* tlheader-regular.otf */,
+			);
+			path = EgyptFonts;
+			sourceTree = "<group>";
+		};
+		868D74C92D4983B400398FA7 /* EgyptImageName */ = {
+			isa = PBXGroup;
+			children = (
+				868D74D12D49840200398FA7 /* EgyptImageName.swift */,
+			);
+			path = EgyptImageName;
+			sourceTree = "<group>";
+		};
+		868D74CA2D4983BB00398FA7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				868D74CB2D4983BF00398FA7 /* EgyptTextExtension */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		868D74CB2D4983BF00398FA7 /* EgyptTextExtension */ = {
+			isa = PBXGroup;
+			children = (
+				8622F9A62D4AAFAF00BCB67D /* EgyptTextExtension */,
+			);
+			path = EgyptTextExtension;
+			sourceTree = "<group>";
+		};
+		868D74D32D49840500398FA7 /* EgyptLoadingModule */ = {
+			isa = PBXGroup;
+			children = (
+				868D74E82D498D8B00398FA7 /* EgyptLoadingView.swift */,
+				868D74E92D498D8B00398FA7 /* EgyptLoadingModel.swift */,
+				868D74EA2D498D8B00398FA7 /* EgyptLoadingViewModel.swift */,
+				868D74DE2D4988BA00398FA7 /* Router.swift */,
+			);
+			path = EgyptLoadingModule;
+			sourceTree = "<group>";
+		};
+		868D74E12D498D5500398FA7 /* EgyptMenuModule */ = {
+			isa = PBXGroup;
+			children = (
+				868D74E22D498D6E00398FA7 /* EgyptMenuView.swift */,
+				868D74E32D498D6E00398FA7 /* EgyptMenuModel.swift */,
+				868D74E42D498D6E00398FA7 /* EgyptMenuViewModel.swift */,
+			);
+			path = EgyptMenuModule;
+			sourceTree = "<group>";
+		};
+		868D74EE2D49907500398FA7 /* EgyptLevelModule */ = {
+			isa = PBXGroup;
+			children = (
+				868D74EF2D49908000398FA7 /* EgyptLevelView.swift */,
+				868D74F02D49908000398FA7 /* EgyptLevelModel.swift */,
+				868D74F12D49908000398FA7 /* EgyptLevelViewModel.swift */,
+			);
+			path = EgyptLevelModule;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +387,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				868D74DC2D49854700398FA7 /* tlheader-regular.otf in Resources */,
 				868D74C02D49838300398FA7 /* Preview Assets.xcassets in Resources */,
 				868D74BD2D49838300398FA7 /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +400,43 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				868D74BB2D49838200398FA7 /* ContentView.swift in Sources */,
+				868D74DF2D4988BA00398FA7 /* Router.swift in Sources */,
+				868D74E52D498D6E00398FA7 /* EgyptMenuView.swift in Sources */,
+				868D74F22D49908000398FA7 /* EgyptLevelView.swift in Sources */,
+				868D74F32D49908000398FA7 /* EgyptLevelModel.swift in Sources */,
+				8622F9B32D4AEB6F00BCB67D /* EgyptPauseView.swift in Sources */,
+				8622F9B42D4AEB6F00BCB67D /* EgyptPauseModel.swift in Sources */,
+				8622F9B52D4AEB6F00BCB67D /* EgyptPauseViewModel.swift in Sources */,
+				868D74F42D49908000398FA7 /* EgyptLevelViewModel.swift in Sources */,
+				8622F9AE2D4ACBF500BCB67D /* EgyptSpriteKitExtension.swift in Sources */,
+				8622F9BA2D4AEE0B00BCB67D /* EgyptShopView.swift in Sources */,
+				8622F9BB2D4AEE0B00BCB67D /* EgyptShopModel.swift in Sources */,
+				8622F9BC2D4AEE0B00BCB67D /* EgyptShopViewModel.swift in Sources */,
+				867466422D4A626D009ACAD5 /* EgyptGameView.swift in Sources */,
+				867466432D4A626D009ACAD5 /* EgyptGameModel.swift in Sources */,
+				867466442D4A626D009ACAD5 /* EgyptGameViewModel.swift in Sources */,
+				8674663B2D4A4EF2009ACAD5 /* EgyptRulesView.swift in Sources */,
+				8674663C2D4A4EF2009ACAD5 /* EgyptRulesModel.swift in Sources */,
+				8674663D2D4A4EF2009ACAD5 /* EgyptRulesViewModel.swift in Sources */,
+				868AF62D2D4B919A00BCB83E /* EgyptLoseView.swift in Sources */,
+				868AF62E2D4B919A00BCB83E /* EgyptLoseModel.swift in Sources */,
+				868AF62F2D4B919A00BCB83E /* EgyptLoseViewModel.swift in Sources */,
+				868D74E62D498D6E00398FA7 /* EgyptMenuModel.swift in Sources */,
+				867466342D4A3631009ACAD5 /* EgyptSettingsView.swift in Sources */,
+				868AF6262D4B8E0E00BCB83E /* EgyptWinView.swift in Sources */,
+				868AF6272D4B8E0E00BCB83E /* EgyptWinModel.swift in Sources */,
+				868AF6282D4B8E0E00BCB83E /* EgyptWinViewModel.swift in Sources */,
+				867466352D4A3631009ACAD5 /* EgyptSettingsModel.swift in Sources */,
+				867466362D4A3631009ACAD5 /* EgyptSettingsViewModel.swift in Sources */,
+				868D74EB2D498D8B00398FA7 /* EgyptLoadingView.swift in Sources */,
+				868D74EC2D498D8B00398FA7 /* EgyptLoadingModel.swift in Sources */,
+				868D74ED2D498D8B00398FA7 /* EgyptLoadingViewModel.swift in Sources */,
+				868AF6322D4BA1E300BCB83E /* UserDefaultsManager.swift in Sources */,
+				868D74E72D498D6E00398FA7 /* EgyptMenuViewModel.swift in Sources */,
 				868D74B92D49838200398FA7 /* EgyptApp.swift in Sources */,
+				868D74D22D49840200398FA7 /* EgyptImageName.swift in Sources */,
+				868D74D02D4983FA00398FA7 /* EgyptCustomButtons.swift in Sources */,
+				868D74CE2D4983E900398FA7 /* EgyptTextExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,11 +573,12 @@
 				DEVELOPMENT_TEAM = 59WWFG63NN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Egypt/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,11 +603,12 @@
 				DEVELOPMENT_TEAM = 59WWFG63NN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Egypt/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
