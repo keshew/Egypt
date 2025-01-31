@@ -616,6 +616,7 @@ extension EgyptGameSpriteKit {
     func shopTapped(touchLocation: CGPoint) {
         if let tappedNode = self.atPoint(touchLocation) as? SKSpriteNode,
            tappedNode.name == "shop" || tappedNode.name == "backForShop" {
+            timer.invalidate()
             game!.isShop = true
         }
     }
